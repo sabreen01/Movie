@@ -8,6 +8,9 @@ html::-webkit-scrollbar {
   --text-color:#020307;
   --bg-color:#fff;
 }
+html{
+  background-color: var(--text-color);
+}
 
 
 header ul a:hover {

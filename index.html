@@ -17,7 +17,7 @@
 
 <body>
   <!-- Navbar  -->
-  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-transparent shadow-md transition-colors duration-300">
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-transparent transition-colors duration-300">
     <div class="container mx-auto flex justify-between items-center p-6">
       <a href="#home" class="flex items-center text-xl font-bold text-gray-900">
         <i class="fa-solid fa-film mr-2 text-red-500"></i> Movies
@@ -38,10 +38,10 @@
   <!-- end navbar -->
 
   <!-- Home -->
-  <section id="home" class="home flex items-center justify-center h-screen bg-cover bg-center"
+  <section id="home" class="home flex items-center justify-content-left pl-20 h-screen bg-cover bg-center"
     style="background-image: url('./img/home3.jpg');">
-    <div class="text-center text-white">
-      <span class="text-lg font-bold capitalize">Marvel Universe</span>
+    <div class="text-center justify-content-left text-white">
+      <span class="text-lg font-bold  uppercase text-gray-900">Marvel Universe</span>
       <h2 class="text-4xl md:text-6xl font-bold my-4">
         Spider-Man<br />
         Far From Home
@@ -50,6 +50,94 @@
     </div>
   </section>
   <!-- Home -->
+
+<!-- Movies -->
+<section id="movies" class="movies py-16  ">
+  <h2 class="text-1.5xl  uppercase text-center  text-white">Opening this Week</h2>
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+    <!-- Box 1 -->
+    <div class="box p-4 rounded-lg ">
+      <div class="box-img mb-4">
+        <img src="img/m1.jpg" alt="Venom" class=" h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl mb-2 text-red-600">Venom</h3>
+      <span class="text-white">120min | Action</span>
+    </div>
+    <!-- Box 2 -->
+    <div class="box  p-4 rounded-lg ">
+      <div class="box-img mb-4">
+        <img src="img/m2.jpg" alt="Dunkerk" class="h-64 w-40  object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl  mb-2 text-red-600">Dunkerk</h3>
+      <span class="text-white">105min | Adventure</span>
+    </div>
+    <!-- Box 3 -->
+    <div class="box p-4 rounded-lg ">
+      <div class="box-img mb-4">
+        <img src="img/m3.jpg" alt="Batman & Superman" class="h-64 w-40  object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl mb-2 text-red-600">Batman & Superman</h3>
+      <span class="text-white">100min | Thriller</span>
+    </div>
+    <!-- Box 4 -->
+    <div class="box p-4 rounded-lg">
+      <div class="box-img mb-4">
+        <img src="img/m4.jpg" alt="John Wick" class="h-64 w-40  object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl  mb-2 text-red-600">John Wick</h3>
+      <span class="text-white">120min | Adventure</span>
+    </div>
+    <!-- Box 5 -->
+    <div class="box p-4 rounded-lg shadow-lg">
+      <div class="box-img mb-4">
+        <img src="img/m5.jpg" alt="Aquaman" class="h-64 w-40  object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl  mb-2 text-red-600">Aquaman</h3>
+      <span class="text-white">130min | Action</span>
+    </div>
+    <!-- Box 6 -->
+    <div class="box  p-4 rounded-lg ">
+      <div class="box-img mb-4">
+        <img src="img/m6.jpg" alt="Black Panther" class="h-64 w-40  object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl  mb-2 text-red-600">Black Panther</h3>
+      <span class="text-white">90min | Thriller</span>
+    </div>
+    <!-- Box 7 -->
+    <div class="box p-4 rounded-lg ">
+      <div class="box-img mb-4">
+        <img src="img/m7.jpg" alt="Thor" class="h-64 w-40  object-fitr rounded-lg" />
+      </div>
+      <h3 class="text-2xl text-red-600 mb-2">Thor</h3>
+      <span class="text-white">130min | Action</span>
+    </div>
+    <!-- Box 8 -->
+    <div class="box  p-4 rounded-lg ">
+      <div class="box-img mb-4">
+        <img src="img/m8.png" alt="Bumblebee" class="h-64 w-40  object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl mb-2 text-red-600">Bumblebee</h3>
+      <span class="text-white">100min | Thriller</span>
+    </div>
+    <!-- Box 9 -->
+    <div class="box p-4 rounded-lg">
+      <div class="box-img mb-4">
+        <img src="img/m9.jpg" alt="Mortal Engines" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl text-red-600 mb-2">Mortal Engines</h3>
+      <span class="text-white">100min | Action</span>
+    </div>
+    <!-- Box 10 -->
+    <div class="box p-4 rounded-lg">
+      <div class="box-img mb-4">
+        <img src="img/m10.jpg" alt="UnderWorld Blood Wars" class="h-64 w-40  object-fit rounded-lg" />
+      </div>
+      <h3 class="text-2xl text-red-600 mb-2">UnderWorld Blood Wars</h3>
+      <span class="text-white">100min | Action</span>
+    </div>
+  </div>
+</section>
+<!-- End Movies -->
 
   <script>
     document.getElementById('menu-icon').addEventListener('click', function () {
