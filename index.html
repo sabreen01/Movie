@@ -10,58 +10,63 @@
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css.map" /> -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.7/dist/tailwind.min.css" rel="stylesheet" />
-
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@300;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,500;1,700&family=Tajawal:wght@200;300;400;500;800;900&family=Varela+Round&display=swap"
-    rel="stylesheet" />
-  <!-- stylesheet link -->
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-
-
- <!-- Navbar  -->
- <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
-  <div class="container mx-auto flex justify-between items-center p-6">
-    <a href="#home" class="flex items-center text-xl font-bold text-gray-900">
-      <i class="fa-solid fa-film mr-2 text-red-500"></i> Movies
-    </a>
-    <div id="menu-icon" class="text-2xl cursor-pointer md:hidden">
-      <i class="fa-solid fa-bars"></i>
+  <!-- Navbar  -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-transparent shadow-md transition-colors duration-300">
+    <div class="container mx-auto flex justify-between items-center p-6">
+      <a href="#home" class="flex items-center text-xl font-bold text-gray-900">
+        <i class="fa-solid fa-film mr-2 text-red-500"></i> Movies
+      </a>
+      <div id="menu-icon" class="text-2xl cursor-pointer md:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <!-- menu -->
+      <ul id="menu" class="hidden md:flex justify-between items-center gap-8">
+        <li><a class="home-active text-red-500 underline" href="#home">Home</a></li>
+        <li><a class="hover:text-red-500 hover:underline" href="#movies">Movies</a></li>
+        <li><a class="hover:text-red-500 hover:underline" href="#coming-soon">Coming Soon</a></li>
+        <li><a class="hover:text-red-500 hover:underline" href="#newsletter">Newsletter</a></li>
+      </ul>
+      <a href="#" class="btn bg-red-500 text-white px-4 py-2 rounded">Sign In</a>
     </div>
-    <!-- menu -->
-    <ul class="hidden md:flex justify-between items-center nt-bold gap-8">
-      <li><a class="home-active text-red-500 underline font-bold " href="#home">Home</a></li>
-      <li><a class="hover:text-red-500 hover:underline font-bold " href="#movies">Movies</a></li>
-      <li><a class="hover:text-red-500 hover:underline font-bold" href="#coming-soon">Coming Soon</a></li>
-      <li><a class="hover:text-red-500 hover:underline font-bold" href="#newsletter">Newsletter</a></li>
-    </ul>
-    <a href="#" class="btn bg-red-700 text-white px-4 py-2 rounded">Sign In</a>
-  </div>
-</header>
-<!-- end navbar -->
+  </header>
+  <!-- end navbar -->
 
-<!-- Home -->
-<section id="home" class="home flex items-center  pl-6 justify-content-left h-screen bg-cover bg-center"
-  style="background-image: url('./img/home3.jpg');">
-  <div class="text-center md:text-center  p-6 text-white">
-    <span class="text-lg font-bold text-gray-900">Marvel Universe</span>
-    <h2 class="text-4xl md:text-6xl font-bold my-4">
-      Spider-Man<br />
-      Far From Home
-    </h2>
-    <a href="#" class="btn bg-red-700 text-white px-6 py-3 rounded">Book Now</a>
-  </div>
-</section>
-<!-- Home -->
+  <!-- Home -->
+  <section id="home" class="home flex items-center justify-center h-screen bg-cover bg-center"
+    style="background-image: url('./img/home3.jpg');">
+    <div class="text-center text-white">
+      <span class="text-lg font-bold capitalize">Marvel Universe</span>
+      <h2 class="text-4xl md:text-6xl font-bold my-4">
+        Spider-Man<br />
+        Far From Home
+      </h2>
+      <a href="#" class="btn bg-red-500 text-white px-6 py-3 rounded">Book Now</a>
+    </div>
+  </section>
+  <!-- Home -->
 
+  <script>
+    document.getElementById('menu-icon').addEventListener('click', function () {
+      document.getElementById('menu').classList.toggle('hidden');
+    });
 
+    window.addEventListener('scroll', function () {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('bg-white');
+        navbar.classList.remove('bg-transparent');
+      } else {
+        navbar.classList.add('bg-transparent');
+        navbar.classList.remove('bg-white');
+      }
+    });
+  </script>
 </body>
 
 </html>

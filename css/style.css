@@ -9,39 +9,22 @@ html::-webkit-scrollbar {
   --bg-color:#fff;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background: var(--text-color);
-  color: var(--bg-color);
-}
-/* Navbar */
-header {
-  background: var(--bg-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
 
 header ul a:hover {
  transition: 0.5s linear;
   color: var(--main-color);
   text-decoration: underline var(--main-color) 3px solid  ; 
-
 }
  header a  {
   color: var(--main-color);
  
 }
-header.shadow i{
-  color: var(--main-color);
-}
-
 
 .btn:hover {
   background: #fa1216;
 }
 /* Navbar */
+
 /* Home */
 
 .btn:hover {
