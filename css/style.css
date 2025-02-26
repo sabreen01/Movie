@@ -3,6 +3,10 @@ html::-webkit-scrollbar {
   width: 0.5rem;
   background-color: var(--text-color);
 }
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
 :root {
   --main-color:#ff2c1f;
   --text-color:#020307;

@@ -1,0 +1,85 @@
+<section id="movies" class="movies mb-20 text-center"></section>
+  <h2 class="text-1.5xl uppercase text-center text-white">Opening this Week</h2>
+  <div class="container w-1/2 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-4 gap-y-4"></div>
+    <!-- Box 1 -->
+    <div class="box p-2 rounded-lg  m-auto">
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3">
+        <img src="img/m1.jpg" alt="Venom" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-0.5xl text-[#ff2c1f]">Venom</h3>
+      <span class="text-white">120min | Action</span>
+    </div>
+    <!-- Box 2 -->
+    <div class="box p-2 rounded-lg  m-auto"></div>
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3"></div>
+        <img src="img/m2.jpg" alt="Dunkerk" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-0.5xl text-[#ff2c1f]">Dunkerk</h3>
+      <span class="text-white">105min | Adventure</span>
+    </div>
+    <!-- Box 3 -->
+    <div class="box p-2 rounded-lg m-auto"></div>
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3">
+        <img src="img/m3.jpg" alt="Batman & Superman" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-0.5xl text-[#ff2c1f]">Batman & Superman</h3>
+      <span class="text-white">100min | Thriller</span>
+    </div>
+    <!-- Box 4 -->
+    <div class="box p-4 rounded-lg  m-auto">
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3">
+        <img src="img/m4.jpg" alt="John Wick" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-1xl text-[#ff2c1f]">John Wick</h3>
+      <span class="text-white text-1xl">120min | Adventure</span>
+    </div>
+    <!-- Box 5 -->
+    <div class="box p-4 rounded-lg m-auto">
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3">
+        <img src="img/m5.jpg" alt="Aquaman" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-1xl text-[#ff2c1f]">Aquaman</h3>
+      <span class="text-white text-1xl">130min | Action</span>
+    </div>
+    <!-- Box 6 -->
+    <div class="box p-4 rounded-lg  m-auto"></div>
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3">
+        <img src="img/m6.jpg" alt="Black Panther" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-0.5xl text-[#ff2c1f]">Black Panther</h3>
+      <span class="text-white">90min | Thriller</span>
+    </div>
+    <!-- Box 7 -->
+    <div class="box p-4 rounded-lg  m-auto">
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3"></div>
+        <img src="img/m7.jpg" alt="Thor" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-0.5xl text-[#ff2c1f]">Thor</h3>
+      <span class="text-white">130min | Action</span>
+    </div>
+    <!-- Box 8 -->
+    <div class="box p-4 rounded-lg   m-auto"></div>
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3">
+        <img src="img/m8.png" alt="Bumblebee" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-0.5xl text-[#ff2c1f]">Bumblebee</h3>
+      <span class="text-white">100min | Thriller</span>
+    </div>
+    <!-- Box 9 -->
+    <div class="box p-4 rounded-lg  m-auto">
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3">
+        <img src="img/m9.jpg" alt="Mortal Engines" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-0.5xl text-[#ff2c1f]">Mortal Engines</h3>
+      <span class="text-white">100min | Action</span>
+    </div>
+    <!-- Box 10 -->
+    <div class="box p-4 rounded-lg  m-auto">
+      <div class="box-img transform transition-transform duration-300 hover:-translate-y-3">
+        <img src="img/m10.jpg" alt="UnderWorld Blood Wars" class="h-64 w-40 object-fit rounded-lg" />
+      </div>
+      <h3 class="text-0.5xl text-[#ff2c1f]">UnderWorld Blood Wars</h3>
+      <span class="text-white">100min | Action</span>
+    </div>
+  </div>
+</section>
